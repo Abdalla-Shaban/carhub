@@ -4,7 +4,7 @@ import CustomButton from "./CustomButton";
 const Hero = () => {
   return (
     <section className="hero">
-      <div className="flex-1 pt-20 padding-x">
+      <div className="flex-1 padding-x">
         <h1 className="hero__title">
           Find, book, or rent a car - quickly and easily!
         </h1>
