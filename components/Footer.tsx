@@ -25,7 +25,7 @@ const Footer = () => {
               <h3 className="font-bold">{link.title}</h3>
               {link.links.map((item) => (
                 <Link
-                  className="text-gray-500"
+                  className="text-gray-500 w-fit"
                   key={item.title}
                   href={item.url}
                 >
