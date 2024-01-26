@@ -4,7 +4,7 @@ import CustomButton from "./CustomButton";
 const Header = () => {
   return (
     <header className="absolute w-full z-10">
-      <nav className="max-width flex-between padding-y padding-x">
+      <nav className="max-w-[1400px] mx-auto flex items-center justify-between py-4 md:px-16 px-6">
         <Link href="/">
           <Image
             src="/logo.svg"
@@ -16,7 +16,7 @@ const Header = () => {
         </Link>
         <CustomButton
           title="Sign In"
-          containerStyles="rounded-full bg-white min-w-[130px] text-primary-blue"
+          containerStyles="rounded-full bg-white min-w-[130px] text-blue-600"
         />
       </nav>
     </header>

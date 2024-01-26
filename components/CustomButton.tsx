@@ -9,7 +9,7 @@ const CustomButton = ({
   return (
     <button
       type={btnType || "button"}
-      className={`custom-btn ${containerStyles}`}
+      className={`flex flex-row relative items-center justify-center py-3 px-6 outline-none ${containerStyles}`}
       onClick={handleClick}
     >
       <span className="flex-1">{title}</span>
